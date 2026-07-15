@@ -64,7 +64,7 @@ const resumeContent = {
     name: "Zhenhua Lu",
     username: "Zhenhua Lu",
     initials: "ZL",
-    url: "https://luzhenhua.cn",
+    url: "https://zhenhua.lu",
     location: "China",
     locationLink: "https://www.google.com/maps/place/china",
     description: "A tinkering full-stack developer who loves building products.",
@@ -159,7 +159,7 @@ const resumeContent = {
     projects: [
       {
         title: "NCE Flow",
-        href: "https://nce.luzhenhua.cn",
+        href: "https://nceflow.zhenhua.lu",
         dates: "2025",
         active: true,
         description:
@@ -168,7 +168,7 @@ const resumeContent = {
         links: [
           {
             type: "Website",
-            href: "https://nce.luzhenhua.cn",
+            href: "https://nceflow.zhenhua.lu",
             icon: <Icons.globe className="size-3" />,
           },
           {
@@ -182,7 +182,7 @@ const resumeContent = {
       },
       {
         title: "Lyrics Card",
-        href: "https://card.luzhenhua.cn",
+        href: "https://lyricscard.zhenhua.lu",
         dates: "2025",
         active: true,
         description: "Create slick Apple Music–style lyric cards in the browser.",
@@ -190,7 +190,7 @@ const resumeContent = {
         links: [
           {
             type: "Website",
-            href: "https://card.luzhenhua.cn",
+            href: "https://lyricscard.zhenhua.lu",
             icon: <Icons.globe className="size-3" />,
           },
           {
@@ -204,7 +204,7 @@ const resumeContent = {
       },
       {
         title: "Heart Notes",
-        href: "https://notes.luzhenhua.cn",
+        href: "https://heartnots.zhenhua.lu",
         dates: "2025",
         active: true,
         description: "An elegant interactive sticky-note wall for sharing feelings.",
@@ -212,7 +212,7 @@ const resumeContent = {
         links: [
           {
             type: "Website",
-            href: "https://notes.luzhenhua.cn",
+            href: "https://heartnots.zhenhua.lu",
             icon: <Icons.globe className="size-3" />,
           },
           {
@@ -226,7 +226,7 @@ const resumeContent = {
       },
       {
         title: "Heytea DIY Sticker",
-        href: "https://diy.luzhenhua.cn",
+        href: "https://diy.zhenhua.lu",
         dates: "2025",
         active: true,
         description: "A web tool for creating custom Heytea DIY cup stickers.",
@@ -234,7 +234,7 @@ const resumeContent = {
         links: [
           {
             type: "Website",
-            href: "https://diy.luzhenhua.cn",
+            href: "https://diy.zhenhua.lu",
             icon: <Icons.globe className="size-3" />,
           },
           {
@@ -257,7 +257,7 @@ const resumeContent = {
     name: "卢振华",
     username: "卢振华 Zhenhua Lu",
     initials: "ZL",
-    url: "https://luzhenhua.cn",
+    url: "https://zhenhua.lu",
     location: "China",
     locationLink: "https://www.google.com/maps/place/china",
     description: "一个喜欢折腾的全栈开发者",
@@ -352,7 +352,7 @@ const resumeContent = {
     projects: [
       {
         title: "NCE Flow",
-        href: "https://nce.luzhenhua.cn",
+        href: "https://nceflow.zhenhua.lu",
         dates: "2025",
         active: true,
         description:
@@ -361,7 +361,7 @@ const resumeContent = {
         links: [
           {
             type: "网站",
-            href: "https://nce.luzhenhua.cn",
+            href: "https://nceflow.zhenhua.lu",
             icon: <Icons.globe className="size-3" />,
           },
           {
@@ -375,7 +375,7 @@ const resumeContent = {
       },
       {
         title: "Lyrics Card",
-        href: "https://card.luzhenhua.cn",
+        href: "https://lyricscard.zhenhua.lu",
         dates: "2025",
         active: true,
         description: "制作精美的 Apple Music 风格歌词卡片。",
@@ -383,7 +383,7 @@ const resumeContent = {
         links: [
           {
             type: "网站",
-            href: "https://card.luzhenhua.cn",
+            href: "https://lyricscard.zhenhua.lu",
             icon: <Icons.globe className="size-3" />,
           },
           {
@@ -397,7 +397,7 @@ const resumeContent = {
       },
       {
         title: "Heart Notes",
-        href: "https://notes.luzhenhua.cn",
+        href: "https://heartnots.zhenhua.lu",
         dates: "2025",
         active: true,
         description: "一个优雅的交互式便签墙。",
@@ -405,7 +405,7 @@ const resumeContent = {
         links: [
           {
             type: "网站",
-            href: "https://notes.luzhenhua.cn",
+            href: "https://heartnots.zhenhua.lu",
             icon: <Icons.globe className="size-3" />,
           },
           {
@@ -419,7 +419,7 @@ const resumeContent = {
       },
       {
         title: "喜茶Diy杯贴",
-        href: "https://diy.luzhenhua.cn",
+        href: "https://diy.zhenhua.lu",
         dates: "2025",
         active: true,
         description: "喜茶自定义 Diy 杯贴网页版工具。",
@@ -427,7 +427,7 @@ const resumeContent = {
         links: [
           {
             type: "网站",
-            href: "https://diy.luzhenhua.cn",
+            href: "https://diy.zhenhua.lu",
             icon: <Icons.globe className="size-3" />,
           },
           {

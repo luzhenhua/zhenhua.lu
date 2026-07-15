@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemaps
-Sitemap: https://luzhenhua.cn/sitemap.xml
+Sitemap: https://zhenhua.lu/sitemap.xml
 
 # Assets
 Allow: /favicons/

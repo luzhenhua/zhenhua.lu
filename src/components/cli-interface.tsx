@@ -113,7 +113,7 @@ export function CliInterface({ onGuiCommand }: CliInterfaceProps) {
         Object.values(data.contact.social)
           .map((entry) => `${entry.name}${colon}${entry.url}`)
           .join("\n"),
-      version: () => "luzhenhua.cn CLI v1.0.0",
+      version: () => "zhenhua.lu CLI v1.0.0",
       clear: "CLEAR",
       gui: "GUI",
     }),

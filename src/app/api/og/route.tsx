@@ -1,12 +1,15 @@
 import { ImageResponse } from "next/og";
-import { NextRequest } from "next/server";
 import { DATA } from "@/data/resume";
 
-export const runtime = "edge";
+// Static export has no request at runtime. Reading `request.url` makes the
+// route fail prerender (`dynamic = "error"`). The site never links here;
+// Open Graph uses `/images/suoluetu.webp`. This file is the same default
+// image `/api/og` returned when `title` was omitted. `?title=` cannot vary
+// on nginx because the file is baked once.
+export const dynamic = "force-static";
 
-export async function GET(request: NextRequest) {
-  const { searchParams } = new URL(request.url);
-  const title = searchParams.get("title");
+export async function GET() {
+  const title = DATA.username;
 
   return new ImageResponse(
     (
@@ -39,7 +42,7 @@ export async function GET(request: NextRequest) {
               marginBottom: "20px",
             }}
           >
-            {title || DATA.username}
+            {title}
           </h1>
           <h2
             style={{

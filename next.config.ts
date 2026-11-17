@@ -1,5 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig: import("next").NextConfig = {
+  // Emit a static `out/` tree for nginx. No Node process is required to serve the site.
+  // `headers()` and `redirects()` below are not applied to exported files;
+  // the same rules live in deploy/nginx/zhenhua.lu.conf.
+  output: "export",
+
   reactStrictMode: true,
 
   images: {

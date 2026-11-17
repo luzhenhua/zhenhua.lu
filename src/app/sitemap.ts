@@ -1,6 +1,9 @@
 import { MetadataRoute } from 'next';
 import {DATA} from "@/data/resume";
 
+// Required so `output: "export"` prerenders this metadata route.
+export const dynamic = "force-static";
+
 const baseUrl = DATA.url;
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
